@@ -1,0 +1,701 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+/*------------------------------------startSections-------------------------------------------------*/
+
+
+.hom {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../im/cc.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 15px 0px 5px 30px;
+    align-items: center;
+    background: linear-gradient(to right, rgba(206, 221, 228, 0.705), rgba(117, 183, 214, 0.705), rgba(95, 173, 209, 0.705) 70%);
+}
+
+.logo {
+
+    width: 105px;
+    height: 35px;
+    margin-top: -10px;
+}
+
+
+
+.hom ul li {
+    display: inline-block;
+    padding: 0px 60px 0px 0px;
+}
+
+.navbar ul li a:hover {
+    color: rgb(209, 229, 238);
+}
+
+.hom ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hpp .h12 h1 {
+    font-size: 70px;
+    text-align: center;
+    color: rgb(66, 162, 206);
+    margin-top: 314px;
+    position: relative;
+}
+
+
+
+
+
+
+
+.hom .hpp p {
+    padding: 20px auto;
+    line-height: 25px;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.hom .hpp span {
+    color: rgba(5, 116, 168, 0.767);
+    font-size: 95px;
+
+}
+
+
+
+.btn-banner {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px auto 0;
+
+}
+
+.btn-banner a {
+    text-decoration: none;
+    border: 1px solid rgb(66, 162, 206);
+    color: rgba(255, 255, 255, 0.76);
+    padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-banner a span {
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(66, 162, 206);
+    position: absolute;
+    z-index: -1;
+    transition: .5s;
+
+}
+
+.btn-banner a:hover span {
+    width: 100%;
+}
+
+.btn-banner a:hover {
+    color: #000;
+}
+
+@media (max-width:950px) {
+
+    .hpp .h12 h1 {
+        font-size: 60px;
+        text-align: center;
+        color: rgb(66, 162, 206);
+        margin-top: 314px;
+    }
+
+    .hom .hpp span {
+        color: rgba(6, 95, 136, 0.767);
+        font-size: 85px;
+
+    }
+
+    .btn-banner {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 40px auto 0;
+
+    }
+
+
+}
+
+@media (max-width:750px) {
+
+    .hpp .h12 h1 {
+        font-size: 50px;
+        text-align: center;
+        color: rgb(66, 162, 206);
+        margin-top: 314px;
+    }
+
+    .hom .hpp span {
+        color: rgba(6, 95, 136, 0.767);
+        font-size: 75px;
+
+    }
+
+    .btn-banner {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 40px auto 0;
+
+    }
+
+    .hom .hpp p {
+        margin: 0 50px auto;
+        line-height: 25px;
+        font-weight: 100;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.712);
+    }
+
+
+}
+
+@media (max-width:550px) {
+
+    .hpp .h12 h1 {
+        font-size: 35px;
+        text-align: center;
+        color: rgb(66, 162, 206);
+        margin-top: 314px;
+    }
+
+    .hom .hpp span {
+        color: rgba(6, 95, 136, 0.767);
+        font-size: 45px;
+
+    }
+
+    .btn-banner {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 50px auto 0;
+
+    }
+
+    .hom .hpp p {
+        margin: 20 70px auto;
+        line-height: 25px;
+        font-weight: 100;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.712);
+    }
+
+
+}
+
+
+/*---------------------------------endHomeSection----------------------------------------------------*/
+
+hr {
+
+    width: 100%;
+    height: 15px;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../im/home.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+.about h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.822);
+    padding-top: 20px;
+    position: relative;
+}
+
+.about h1:hover {
+    color: rgb(66, 162, 206);
+}
+
+.about h1:before {
+    content: "";
+    width: 40%;
+    height: 4px;
+    background-color: rgb(66, 162, 206);
+    top: 50%;
+    left: 0;
+    position: absolute;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.about h1::after {
+    content: "";
+    width: 40%;
+    height: 4px;
+    background-color: rgb(66, 162, 206);
+    top: 50%;
+    right: 0;
+    position: absolute;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.about .row {
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 230px;
+
+
+}
+
+.about .row .media {
+    height: 350px;
+    margin: 50px;
+    border-radius: 50px 0px 0px 50px;
+
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime {
+    25% {
+        background-image: url(../im/1.jpg);
+    }
+
+    50% {
+        background-image: url(../im/10.jpg);
+    }
+
+    75% {
+        background-image: url(../im/12.jpg);
+    }
+
+    100% {
+        background-image: url(../im/16.jpg);
+    }
+}
+
+
+.about .row img:hover {
+    transform: rotate(360deg);
+}
+
+.about .row .pp h2 {
+    padding-top: 40px;
+    text-align: left;
+    color: rgb(33, 110, 182);
+}
+
+.about .row .pp {
+    margin-right: 100px;
+    padding: 10px 20px 40px 40px;
+    background-color: rgb(202, 222, 228);
+    border-radius: 0px 50px 50px 0;
+}
+
+.about .row p {
+    color: rgba(8, 8, 8, 0.836);
+}
+
+@media(max-width:950px) {
+    .about .row .pp {
+        background-color: rgb(33, 110, 182);
+        padding: 0px 20px 10px 40px;
+
+    }
+
+    .about .row .pp h2 {
+        padding-top: 20px;
+        color: rgb(202, 222, 228);
+
+    }
+
+    .about .row .media {
+        margin-top: 85px;
+    }
+}
+
+@media(max-width:770px) {
+    .about .row .media {
+        border-radius: 20px;
+    }
+
+    .about .row .pp {
+        margin-left: 90px;
+        border-radius: 20px;
+    }
+
+}
+
+
+
+
+/*----------------------------------endAboutSection---------------------------------------------------*/
+
+.contant {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../im/home.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.contant h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.822);
+    padding-top: 20px;
+    position: relative;
+}
+
+.contant h1:hover {
+    color: rgb(66, 162, 206);
+}
+
+.contant h1:before {
+    content: "";
+    width: 40%;
+    height: 4px;
+    background-color: rgb(66, 162, 206);
+    top: 50%;
+    left: 0;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+.contant h1::after {
+    content: "";
+    width: 40%;
+    height: 4px;
+    background-color: rgb(66, 162, 206);
+    top: 50%;
+    right: 0;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+.contant .row .nav {
+    margin: -20px 0px 0px 667px;
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid rgb(66, 162, 206);
+    padding: 10px;
+    display: block;
+
+}
+
+.contant .row .nav a {
+    color: rgb(66, 162, 206);
+}
+
+.contant .row .nav .active {
+    color: black;
+    border-radius: 10px;
+}
+
+.contant .row {
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+.contant .row img {
+    margin: 10px;
+    border: solid rgb(66, 162, 206) 5px;
+    border-radius: 10px;
+}
+
+/*----------------------------------endContantSection---------------------------------------------------*/
+
+#h {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../im/home.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#h h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.822);
+    padding-top: 20px;
+    position: relative;
+}
+
+#h h1:hover {
+    color: rgb(66, 162, 206);
+}
+
+#h h1:before {
+    content: "";
+    width: 40%;
+    height: 4px;
+    background-color: rgb(66, 162, 206);
+    top: 50%;
+    left: 0;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+#h h1::after {
+    content: "";
+    width: 40%;
+    height: 4px;
+    background-color: rgb(66, 162, 206);
+    top: 50%;
+    right: 0;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+#h .row {
+    overflow: hidden;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+
+#h .row .fo {
+    background-color: rgba(202, 222, 228, 0.63);
+    border-radius: 70px 0px 0px 70px;
+    padding: 50px;
+    margin: 50px;
+
+
+}
+
+#h .row .fo input {
+    display: block;
+    background-color: rgba(66, 162, 206, 0.842);
+    border: 0;
+    border-radius: 5px;
+
+
+}
+
+#h.row .fo label {
+    color: #000;
+    font-weight: bold;
+    display: inline;
+
+
+
+}
+
+#h .row .fo button {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+#h .row .d {
+    margin: 100px;
+}
+
+#h .row p {
+    background-color: rgba(202, 222, 228, 0.63);
+    border-radius: 0px 70px 70px 0px;
+    color: rgba(2, 2, 2, 0.658);
+    padding: 30px 50px 30px 50px;
+}
+
+#h .row h2 {
+    color: rgb(66, 162, 206);
+    text-align: left;
+}
+
+@media (max-width:950px) {
+
+    #h .row .fo {
+        border-radius: 10px;
+        background-color: rgb(66, 162, 206);
+
+
+
+    }
+
+    #h .row p {
+        border-radius: 10px;
+        background-color: rgb(66, 162, 206);
+
+    }
+
+    #h .row h2 {
+        margin-top: -30px;
+        color: rgba(202, 222, 228, 0.63);
+
+        text-align: center;
+    }
+
+    #h .row .fo input {
+        background-color: rgba(202, 222, 228, 0.63);
+    }
+
+
+
+
+}
+
+
+
+
+/*-------------------------------------endHelpSection------------------------------------------------*/
+
+
+.end {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to left, rgba(163, 172, 224, 0.575), rgba(98, 111, 184, 0.575), rgba(65, 79, 168, 0.575) 60%);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.end ul li {
+    list-style: none;
+}
+
+.end ul li a {
+    color: #000;
+}
+
+.end .row {
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+
+
+}
+
+.end ul li a {
+    text-decoration: none;
+}
+
+.end .row hr {
+    margin-left: 10px;
+    margin-right: -20px;
+    width: 1060px;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+    padding-left: 23px;
+    padding-right: 10px;
+}
+
+
+.oo p {
+    font-size: 15px;
+
+    text-transform: uppercase;
+}
+
+.ooo img {
+    width: 30px;
+    height: 30px;
+
+
+    transition: all .5s;
+}
+
+.ooo img:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+.row .oo a {
+    text-decoration: none;
+    color: rgb(45, 53, 119);
+    font-weight: bold;
+}
+
+@media (max-width: 950px) {
+    .end .k {
+        display: flex;
+    }
+
+}
+
+
+
+.link {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.884);
+    font-weight: bold;
+    font-size: 30px;
+
+
+}
+
+.link:hover {
+    color: rgba(255, 255, 255, 0.747);
+}
+
+.btn-info {
+    background-color: rgba(33, 179, 224, 0.425) !important;
+    padding: 20px 0;
+    border-radius: 30px 30px 0px 0;
+
+}
+
+.btn-dark {
+    background-color: rgba(80, 80, 80, 0.404);
+
+
+
+}
+
+.hrline {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+
+}
+
+
+
+/*-----------------------------------endAllSections--------------------------------------------------*/
